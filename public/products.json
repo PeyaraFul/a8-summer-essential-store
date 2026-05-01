@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/h4dGG16M/sunglass.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Portable Cooling Fan",
+    "brand": "CoolBreeze",
+    "price": 20,
+    "rating": 4.5,
+    "stock": 15,
+    "description": "Lightweight portable fan for instant cooling in summer heat.",
+    "image": "https://i.postimg.cc/1Rqzzr2X/fan.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Face Wash",
+    "brand": "GlowPure",
+    "price": 8,
+    "rating": 4.3,
+    "stock": 30,
+    "description": "Refreshing face wash that removes oil and sweat in summer.",
+    "image": "https://i.postimg.cc/dQy00jp1/face-wash.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 4,
+    "name": "Skin Care Cream",
+    "brand": "DermaSoft",
+    "price": 12,
+    "rating": 4.6,
+    "stock": 25,
+    "description": "Hydrating cream that protects skin from summer dryness.",
+    "image": "https://i.postimg.cc/NGH00kST/skin-creem.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 5,
+    "name": "Cotton T-Shirt",
+    "brand": "AirWear",
+    "price": 10,
+    "rating": 4.5,
+    "stock": 40,
+    "description": "Breathable cotton t-shirt perfect for summer comfort.",
+    "image": "https://i.postimg.cc/8k6CCm9Z/t-shirt.png",
+    "category": "Clothing"
+  },
+  {
+    "id": 6,
+    "name": "Saline Solution",
+    "brand": "MediCare",
+    "price": 5,
+    "rating": 4.2,
+    "stock": 50,
+    "description": "Medical saline solution for dehydration support.",
+    "image": "https://i.postimg.cc/KcMYYDwg/saline.png",
+    "category": "Healthcare"
+  },
+  {
+    "id": 7,
+    "name": "Swimming Vest",
+    "brand": "AquaSafe",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 12,
+    "description": "Safety swimming vest for kids and adults in water activities.",
+    "image": "https://i.postimg.cc/8k6CCm9v/summer-vest.png",
+    "category": "Sports"
+  }
+]
