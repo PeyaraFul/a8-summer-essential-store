@@ -24,17 +24,16 @@ export default function RootLayout({ children }) {
 >
       <body className="min-h-full flex flex-col">
         <Navbar></Navbar>
-        <Hero></Hero>
+        {/* <Hero></Hero>
   
         <Popular></Popular>
         <Tips></Tips>
-        <TopBrand></TopBrand>
-        <Footer></Footer>
+        <TopBrand></TopBrand> */}
         <main>
-          
-
           {children}
         </main>
+        <Footer></Footer>
+        
         
         </body>
     </html>
