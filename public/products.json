@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "UV Protection Sunglasses",
-    "brand": "SunShade",
+    "brand": "Peyaraful",
     "price": 15.00,
-    "rating": 4.1,
+    "rating": 4.5,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
     "image": "https://i.postimg.cc/h4dGG16M/sunglass.png",
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "name": "Saline Solution",
-    "brand": "MediCare",
+    "brand": "Peyaraful",
     "price": 5.00,
     "rating": 4.2,
     "stock": 50,

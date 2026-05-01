@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 
 import Popular from "@/components/Popular";
+import Tips from "@/components/Tips";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
         <Hero></Hero>
   
         <Popular></Popular>
+        <Tips></Tips>
         <main>
 
           {children}
