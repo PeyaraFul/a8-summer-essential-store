@@ -1,13 +1,17 @@
-'use client'
+"use client";
 import Link from "next/link";
 import React from "react";
 import { useForm } from "react-hook-form";
 
 const page = () => {
-    const {register,handleSubmit,formState: { errors }} = useForm()
-    const onSubmit = (data) => {
-        //  console.log(data);
-    }
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => {
+    //  console.log(data);
+  };
   return (
     <div>
       <form
@@ -15,7 +19,6 @@ const page = () => {
         className=" mx-auto fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4"
       >
         <legend className="fieldset-legend">Login</legend>
-
 
         <label className="label">Email</label>
         <input
@@ -40,8 +43,10 @@ const page = () => {
         <button className="btn btn-neutral mt-4">Login</button>
       </form>
       <p className="text-center my-4">
-        Don&apos;t Have an account? <Link href="/register" className="text-blue-500 hover:underline">Register here</Link>
-        
+        Don&apos;t Have an account?{" "}
+        <Link href="/register" className="text-blue-500 hover:underline">
+          Register here
+        </Link>
       </p>
     </div>
   );
