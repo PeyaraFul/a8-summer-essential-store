@@ -8,9 +8,9 @@ const Popular = async () => {
   return (
     <>
       <h1 className="text-2xl mt-6 font-bold text-center">Popular Prosucts</h1>
-      <div className="grid grid-cols-3 ">
+      <div className="grid grid-cols-3 gap-6  ">
         {products.map((product) => (
-          <div key={product.id} className="card bg-base-100 w-96 shadow-sm">
+          <div key={product.id} className="card bg-base-100 w-96 shadow-sm border border-amber-600 p-4">
             <figure>
               <Image
                 className=" rounded-md"
@@ -22,7 +22,7 @@ const Popular = async () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">{product.name}</h2>
-              <div className="rating">
+              {/* <div className="rating">
                 <div className="mask mask-star" aria-label="2 star"></div>
                 <div className="mask mask-star" aria-label="2 star"></div>
                 <div
@@ -32,10 +32,15 @@ const Popular = async () => {
                 ></div>
                 <div className="mask mask-star" aria-label="4 star"></div>
                 <div className="mask mask-star" aria-label="5 star"></div>
-              </div>
+              </div> */}
+              <label className="label">
+                <span className="label-text">Rating: {product.rating}</span>
+              </label>
+              <input type="range" min={0} max='5'  step={0.1} defaultValue={product.rating} className="range range-accent range-sm bg-green-200 pointer-events-none" />
               <p>{product.description}</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <span className="font-bold text-xl"> ${(product.price).toFixed(2)}</span>
+              <div className="card-actions">
+                <button className="btn btn-info w-full"> See Details</button>
               </div>
             </div>
           </div>
