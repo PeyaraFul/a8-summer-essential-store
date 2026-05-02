@@ -1,5 +1,5 @@
 "use client";
-import { authClient } from "@/lib/auth-client";
+// import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
 import React from "react";
 import { FaRegUserCircle } from "react-icons/fa";
@@ -7,9 +7,9 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 
 const Navbar = () => {
-  const { data: session } = authClient.useSession()
-  const user = session?.user;
-  console.log('user', user);
+  // const { data: session } = authClient.useSession()
+  // const user = session?.user;
+  // console.log('user', user);
   return (
     <>
     
