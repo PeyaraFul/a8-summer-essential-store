@@ -3,7 +3,7 @@ import { productsData } from '@/lib/Data';
 
 import ProductCard from '@/components/ProductCard';
 
-const ProductsPage = async ({children}) => {
+const ProductsPage = async () => {
     const products = await productsData();
     return (
         <div className="grid grid-cols-3 gap-6  ">
